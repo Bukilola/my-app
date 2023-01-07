@@ -6,7 +6,7 @@ export default function Weather() {
   let [city, setCity] = useState("");
   let [temperature, setTemperature] = useState(null);
   let [humidity, setHumidity] = useState(null);
-  
+
   let [wind, setWind] = useState(null);
   let [icon, setIcon] = useState(null);
   // axios function
@@ -14,7 +14,7 @@ export default function Weather() {
     console.log("response", response);
     setTemperature(Math.round(response.data.main.temp));
     setHumidity(response.data.main.humidity);
-   
+
     setWind(response.data.wind.speed);
     let iconCode = response.data.weather[0].icon;
     setIcon(`http://openweathermap.org/img/wn/${iconCode}@2x.png`);

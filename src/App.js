@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import SearchEngine from "./Weather";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>My Weather App</h1>
+      <SearchEngine />
+      <br />
+      <br />
+      <br />
+      <br />
+      <p>
+        This code is{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://github.com/Bukilola/weather-react"
+          target="-blank"
+          rel="noreferrer"
         >
-          Learn React
+          Open-source
         </a>
-      </header>
+        , created by Arasanyin Olubukola
+      </p>
     </div>
   );
 }

@@ -1,28 +1,33 @@
-
 import "./App.css";
 import Weather from "./Weather";
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>My Weather App</h1>
+      <h1>Weather App</h1>
       <Weather />
       <br />
       <br />
       <br />
-      <br />
+      <hr />
       <p>
         This code is{" "}
         <a
-          href="https://github.com/Bukilola/my-app"
-          target="-blank"
+          href="https://github.com/shel-brya/reactweather"
+          target="_blank"
           rel="noreferrer"
         >
-          Open-source
+          open-source
         </a>
-        , created by Arasanyin Olubukola
+        , created by{" "}
+        <a
+          href="https://www.linkedin.com/in/shelby-bryant-5aa5691b9/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Arasanyin Olubukola
+        </a>{" "}
+        🤠
       </p>
     </div>
   );
 }
-
-export default App;

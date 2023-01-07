@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import SearchEngine from "./Weather";
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <p>
         This code is{" "}
         <a
-          href="https://github.com/Bukilola/weather-react"
+          href="https://github.com/Bukilola/my-app"
           target="-blank"
           rel="noreferrer"
         >
